@@ -1,0 +1,12 @@
+(software-based)
+(interrupt function called when buttonis pressed)
+if power_button is pressed:
+	go_to_sleep()
+
+(hardware-based)
+if interrupt_wake grounded:
+	wake_the _duino()
+
+>>> One button to send a stop message to the number, then sleep the duino (interrapt) = Done
+>>> One other button to fully cut power from the duion (simple slide switch)
+>>> Phone call to duino wakes it up if sleeping (interrapt)
